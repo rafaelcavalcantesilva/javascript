@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    /*background-color: rgb(243, 243, 160);*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section#container{
+    background-color: white;
+    color: black;
+    margin: auto;
+    max-width: 600px;
+    max-height: 250px;
+}
+
+div#imagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

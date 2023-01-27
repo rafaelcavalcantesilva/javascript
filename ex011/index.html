@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Digite o país onde você nasceu: <input type="text" name="txtp" id="txtp">
+    <input type="button" value="Verificar" onclick="verify()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verify(){
+            var pais = document.querySelector('#txtp').value;
+            var res = document.querySelector('#res');
+
+            res.innerHTML = `<p>Você nasceu no país: ${pais}</p>`;
+            if(pais == 'Brasil'){
+                res.innerHTML += 'Você é brasileiro!';
+            }
+            else{
+                res.innerHTML += 'Você é estrangeiro!';
+            }
+        }
+    </script>
+</body>
+</html>
