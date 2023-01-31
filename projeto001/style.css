@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section#container{
+    background-color: white;
+    color: black;
+    margin: auto;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+}
+
+section#container > p{
+    margin-top: 0px;
+}
+
+.imagem{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day{
+    background-image: url('imagens/sunrise.jpg');
+}
+
+.afternoon{
+    background-image: url('imagens/sunset.jpg');
+}
+
+.night{
+    background-image: url('imagens/night.jpg');
+    background-position: top center;
+}
