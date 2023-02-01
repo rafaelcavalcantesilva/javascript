@@ -1,26 +1,65 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(70, 142, 236);
+    background-color: rgb(3, 136, 189);
+    color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    color: white;
-    text-align: center;
-}
-
-section{
+section#container{
     background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
+    color: black;
+    max-width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.247);
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
 }
 
-footer{
-    color: white;
-    text-align: center;
-    font-style: italic;
+.imagem{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.baby{
+    background-image: url('imagens/baby.jpg');
+}
+
+.boy{
+    background-image: url('imagens/malechild.jpg');
+}
+
+.girl{
+    background-image: url('imagens/femalechild.jpg');
+}
+
+.teenboy{
+    background-image: url('imagens/maleteen.jpg');
+}
+
+.teengirl{
+    background-image: url('imagens/femaleteen.jpg');
+}
+
+.man{
+    background-image: url('imagens/maleadult.jpg');
+}
+
+.woman{
+    background-image: url('imagens/femaleadult.jpg');
+}
+
+.oldguy{
+    background-image: url('imagens/maleold.jpg');
+}
+
+.oldlady{
+    background-image: url('imagens/femaleold.jpg');
 }
