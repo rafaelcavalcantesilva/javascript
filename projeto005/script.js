@@ -17,6 +17,8 @@ function adicionar(){
         ret.appendChild(valor);
         res.innerHTML = '';
     }
+    num.value = '';
+    num.focus();
 }
 
 function verificar(){
